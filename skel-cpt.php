@@ -3,7 +3,7 @@ defined('ABSPATH') or die("Cannot access pages directly.");
 
 if (!class_exists("skeletonclass_cpt")) {
 
-	class skeletonclass_cpt extends skeletonclass {
+	class skeletonclass_cpt {
 		
 		function skeletonclass_cpt()
 		{
